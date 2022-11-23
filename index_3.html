@@ -43,27 +43,29 @@
       </nav>
     </header>
 
-    <main>
+    <main class="container-fluid">
         <div class="Texte">
             <div class="Titre">
-                <h3 class="h4">Où souhaitez-vous voyager ?</h3>
+                <h3 class="h4">Identifiez-vous</h3>
             </div>
         </div> 
         <form>
-            <div class="mb-3 text-center">
-              <label for="exampleInputEmail1" class="form-label">Adresse e-mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">Ne partagez jamais votre e-mail avec quelqu'un d'autre.</div>
-            </div>
-            <div class="mb-3 text-center">
-              <label for="exampleInputPassword1" class="form-label margin-left 5">Mot de passe</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="exampleInputEmail1" class="form-label">Adresse e-mail</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Ne partagez jamais votre e-mail avec quelqu'un d'autre.</div>
+                </div>
+                <div class="col">
+                    <label for="exampleInputPassword1" class="form-label margin-left 5">Mot de passe</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+              </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
           </form> 
     </main>
 
