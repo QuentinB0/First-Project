@@ -12,5 +12,6 @@ main .Description{
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 1%;
-
+    text-align: justify;
 }
+
