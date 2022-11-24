@@ -2,8 +2,7 @@ html,body{
     margin: 0;
 }
 
-main .form-check{
+main>h5{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
