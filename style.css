@@ -17,5 +17,6 @@ main .Description{
 
 #boutons{
     display: flex;
+    background-color: pink;
     flex-direction: row;
 }
